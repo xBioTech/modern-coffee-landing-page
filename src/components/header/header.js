@@ -5,7 +5,14 @@ function createHeader() {
     headerDiv.classList.add("header");
     contentDiv.appendChild(headerDiv);
 
-    return contentDiv;
+
+    const shopName = document.createElement("h1");
+    shopName.textContent = "Coffee Shop"
+    shopName.classList.add("shop-name");
+    headerDiv.appendChild(shopName);
+
+
+    return contentDiv; 
 }
 
 export default createHeader;

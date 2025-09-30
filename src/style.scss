@@ -1,3 +1,14 @@
-body{
-    background-color: green;
-}
+$bodybgcolor: #837060;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: $bodybgcolor;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+  }
